@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 /*
 Theme Name: Engitech
 Theme URI: http://templates.thememodern.com/engitech/index.html
@@ -1672,7 +1672,7 @@ section.is-stuck, .is-stuck {
   .header_mobile {
     display: block;
     width: 100%;
-    background: #fff;
+    background: #060709;
   }
   .header_mobile.is-stuck {
     box-shadow: 2px 2px 15px 0px rgba(42, 67, 113, 0.15);
@@ -7885,7 +7885,7 @@ div.elementor-widget-heading.elementor-widget-heading .elementor-heading-title {
   width: 140px;
 }
 .octf-search-mobile.octf-cta-header .toggle_search i, .octf-cart-mobile .cart-contents {
-  color: #000;
+  color: #fff;
 }
 .octf-menu-mobile {
   padding-left: 22px;
@@ -8234,6 +8234,13 @@ section {
   transform: none;
 }
 @media (max-width: 600px) {
+  .mobile_logo {
+    width: 50px;
+  }
+
+
+
+
   .error-404 h1 {
     font-size: 120px;
   }
@@ -10071,6 +10078,10 @@ svg {
   background-color: #55bb53;
 }
 @media only screen and (max-width: 1024px){
+
+  .ot-flaticon-menu{
+    color: white;
+  }
   .coporate-style.header_mobile, .business-style.header_mobile {
       display: block;
       width: 100%;
